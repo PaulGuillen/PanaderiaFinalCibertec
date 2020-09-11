@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    app:cardCornerRadius="4dp"
+    android:layout_margin="5dp"
+    android:layout_height="250dp">
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:orientation="vertical"
+        android:layout_height="match_parent">
+
+        <ImageView
+            android:id="@+id/img_imagen_panaderia"
+            android:layout_width="match_parent"
+            android:background="?attr/selectableItemBackgroundBorderless"
+            android:scaleType="fitXY"
+            android:layout_height="219dp">
+        </ImageView>
+
+        <TextView
+            android:id="@+id/tv_titulo_panaderia"
+            android:textSize="15sp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/muli"
+            android:gravity="center"
+            android:hint="Titulo">
+        </TextView>
+
+        <TextView
+            android:id="@+id/tv_descripcion_panaderia"
+            android:layout_width="0dp"
+            android:layout_height="0dp">
+        </TextView>
+
+        <TextView
+            android:id="@+id/tv_precio_panaderia"
+            android:layout_width="0dp"
+            android:layout_height="0dp">
+        </TextView>
+
+        <TextView
+            android:id="@+id/tv_estado_panaderia"
+            android:layout_width="0dp"
+            android:layout_height="0dp">
+        </TextView>
+
+    </LinearLayout>
+
+</androidx.cardview.widget.CardView>
